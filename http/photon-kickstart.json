@@ -1,0 +1,15 @@
+{
+    "hostname": "vghetto-photonos",
+    "password": {
+        "crypted": false,
+        "text": "VMware1!",
+        "age": -1
+    },
+    "disk": "/dev/sda",
+    "packagelist_file": "packages_minimal.json",
+    "postinstall": [
+                    "#!/bin/sh",
+                    "sed -i 's/PermitRootLogin no/PermitRootLogin yes/g' /etc/ssh/sshd_config",
+                    "sed -i 's/MaxAuthTries.*/MaxAuthTries 10/g' /etc/ssh/sshd_config"
+                    ]
+}

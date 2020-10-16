@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "description": "PhotonOS Arm NFS Appliance",
+  "vm_name": "PhotonOS_Arm_NFS_Appliance",
+  "iso_checksum": "b0fa9a3c6f936a7d6f9245a7db2be24d2000ee49d354f57aebb4beafbe8ac858f002131c2909a85c5f4672975b9dc302f1deca7c3a172d19d349585395ae37b5",
+  "iso_url": "https://dl.bintray.com/vmware/photon/3.0/Rev2/iso/Update1/photon-3.0-1ca1d7be-aarch64.iso",
+  "numvcpus": "2",
+  "ramsize": "2048",
+  "guest_username": "root",
+  "guest_password": "VMware1!"
+}

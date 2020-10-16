@@ -1,0 +1,8 @@
+{
+    "packages": [
+                 "minimal",
+                 "linux",
+                 "initramfs",
+                 "glibc-i18n"
+                 ]
+}
